@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- jsPDF Library for generating PDF bills -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
 </head>
 <body>
 
@@ -18,7 +19,7 @@
     <nav class="navbar navbar-expand-lg sticky-top navbar-custom" id="main-nav">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.html" id="nav-brand-link">
-                <img src="images/logo.png" alt="SYFA Enterprises Logo">
+                <img src="images/logo.jpg" alt="SYFA Enterprises Logo">
                 <span>SYFA ENTERPRISES</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,9 +38,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html" id="nav-contact">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="invoice.html" id="nav-invoice"><i class="fas fa-file-invoice-dollar me-1 text-secondary"></i>Invoice Gen</a>
                     </li>
                     <li class="nav-item ms-lg-3">
                         <a class="nav-link btn btn-floating bg-light position-relative active" href="order.html" style="width: 40px; height: 40px; border-radius: 50%; box-shadow: var(--shadow-sm);" id="nav-cart">
@@ -132,12 +130,21 @@
                                 <input type="tel" class="form-control form-control-custom" id="customer-mobile" placeholder="Enter Mobile Number" required>
                             </div>
                             <div class="mb-3">
-                                <label for="hospital-name" class="form-label">Hospital Name <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control form-control-custom" id="hospital-name" placeholder="Enter Hospital Name" required>
+                                <label for="hospital-name" class="form-label">Hospital Name</label>
+                                <input type="text" class="form-control form-control-custom" id="hospital-name" placeholder="Enter Hospital Name (if available)">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="patient-name" class="form-label">Patient Name <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control form-control-custom" id="patient-name" placeholder="Enter Patient Name" required>
                             </div>
                             <div class="mb-3">
-                                <label for="customer-city" class="form-label">City <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control form-control-custom" id="customer-city" placeholder="Enter City" required>
+                                <label for="patient-age-gender" class="form-label">Patient Age / Gender <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control form-control-custom" id="patient-age-gender" placeholder="e.g., 45/Male or 30/Female" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="patient-ip-number" class="form-label">Patient IP Number <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control form-control-custom" id="patient-ip-number" placeholder="Enter Inpatient (IP) Number" required>
                             </div>
                             <div class="d-grid mt-4">
                                 <button type="submit" class="btn btn-primary-custom btn-lg"><i class="fab fa-whatsapp me-2"></i>PLACE ORDER</button>
@@ -185,7 +192,7 @@
                     <h5>Corporate Office</h5>
                     <div class="footer-contact-item mt-3">
                         <i class="fas fa-map-marker-alt"></i>
-                        <span>61, First Floor, Palayam Bazaar, Woraiyur, Tiruchirappalli - 620003, Tamil Nadu, India</span>
+                        <span>61, Palayam Bazaar, Woraiyur, Trichy - 3</span>
                     </div>
                     <div class="footer-contact-item">
                         <i class="fas fa-phone-alt"></i>

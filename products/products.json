@@ -63511,5 +63511,2417 @@
         "size":  "1.8mm",
         "material":  "Titanium",
         "type":  "Implant"
+    },
+    {
+        "code":  "S101",
+        "name":  "1/3 Tubular Plate",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2101",
+        "name":  "1/3 Tubular Plate",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 12 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S106",
+        "name":  "Small \u0027T\u0027 Plate",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "2 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2105",
+        "name":  "Small \u0027T\u0027 Plate",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "2 to 12 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S102",
+        "name":  "Small D.C. Plate",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "2 to 14 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2102",
+        "name":  "Small D.C. Plate",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "2 to 14 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S107",
+        "name":  "Oblique \u0027T\u0027 Plate",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "2 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2106",
+        "name":  "Oblique \u0027T\u0027 Plate",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "2 to 12 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S103",
+        "name":  "Hook Plate",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S108",
+        "name":  "Reconstruction Plate 3.5 mm (Round Hole)",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 30 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2103",
+        "name":  "Reconstruction Plate 3.5 mm (Round Hole)",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 30 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S104",
+        "name":  "Small L.C.D.C. Plate",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 14 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S109",
+        "name":  "Reconstruction Plate 3.5 mm (D.C. Hole)",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 30 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2104",
+        "name":  "Reconstruction Plate 3.5 mm (D.C. Hole)",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 30 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S105",
+        "name":  "Ellis Plate",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "2 to 10 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S-109",
+        "name":  "Pelvic Straight Plate 3.5mm (88, 108mm)",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 14 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S110",
+        "name":  "Calcaneal Plate (Shape: P - Q - Y)",
+        "category":  "BONE PLATES (3.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S201",
+        "name":  "Semi Tubular Plate",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S206",
+        "name":  "\u0027T\u0027 Buttress Plate",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 14 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2110",
+        "name":  "\u0027T\u0027 Buttress Plate",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 14 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S202",
+        "name":  "Narrow D.C. Plate",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2107",
+        "name":  "Narrow D.C. Plate",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 16 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S207",
+        "name":  "\u0027L\u0027 Buttress Plate (Left and Right)",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 14 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S203",
+        "name":  "Narrow L.C.D.C. Plate",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S208",
+        "name":  "Lateral Tibia Plate (Left and Right)",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S204",
+        "name":  "Broad D.C. Plate",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2108",
+        "name":  "Broad D.C. Plate",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 16 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S209",
+        "name":  "Cobra Plate (Round and D.C. Hole)",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S205",
+        "name":  "Broad L.C.D.C. Plate",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S211",
+        "name":  "Cloverleaf Plate",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 14 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S212",
+        "name":  "Condylar Buttress Plate (Left and Right)",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S213",
+        "name":  "Sherman \u0027Y\u0027 Plate",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S214",
+        "name":  "Reconstruction Plate 4.5 mm (Round Hole)",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 30 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S215",
+        "name":  "Reconstruction Plate 4.5 mm (D.C. Hole)",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 30 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "SA216",
+        "name":  "D.H.S. Plate Long Barrel (Round Hole) 120 to 145 degrees",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "2 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "SB216",
+        "name":  "D.H.S. Plate Short Barrel (Round Hole) 120 to 145 degrees",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "2 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "SA217",
+        "name":  "D.H.S. Plate Long Barrel (D.C. Hole) 120 to 145 degrees",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "2 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "SB217",
+        "name":  "D.H.S. Plate Short Barrel (D.C. Hole) 120 to 145 degrees",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "2 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2109",
+        "name":  "D.H.S. Plate Long/Short Barrel (D.C. Hole) 120 to 145 degrees",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "2 to 16 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S218",
+        "name":  "95 Degree D.C.S. Barrel Plate (Round Hole)",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 18 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S219",
+        "name":  "95 Degree D.C.S. Barrel Plate (D.C. Hole)",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "4 to 18 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S220",
+        "name":  "Pediatric D.H.S. Plate (D.C. Hole) 130 and 135 degrees",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "3 to 6 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S221",
+        "name":  "Trochanteric Buttress Plate for P.F.N.",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S222",
+        "name":  "Trochanteric Stabilization Plate for DHS",
+        "category":  "BONE PLATES (4.5 mm SCREW)",
+        "basePrice":  null,
+        "size":  "138 and 148 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S501",
+        "name":  "Cortical Screw (Self Tapping) Dia 3.5mm (14 T.P.I.)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "8 to 70 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2001",
+        "name":  "Cortical Screw (Self Tapping) Dia 3.5mm (14 T.P.I.)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "8 to 70 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S502",
+        "name":  "Cortical Screw (Self Tapping) Dia 3.5mm (20 T.P.I.)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "8 to 70 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2002",
+        "name":  "Cortical Screw (Self Tapping) Dia 3.5mm (20 T.P.I.)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "8 to 70 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S503",
+        "name":  "Cortical Screw (Self Tapping) Dia 4.5mm (14 T.P.I.)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "10 to 100 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2003",
+        "name":  "Cortical Screw (Self Tapping) Dia 4.5mm (14 T.P.I.)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "10 to 100 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S507",
+        "name":  "Cancellous Screw Dia 4mm (Partly Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "15 to 90 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2004",
+        "name":  "Cancellous Screw Dia 4mm (Partly Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "15 to 90 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S508",
+        "name":  "Cancellous Screw Dia 4mm (Fully Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "15 to 90 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2005",
+        "name":  "Cancellous Screw Dia 4mm (Fully Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "15 to 90 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S509",
+        "name":  "Cancellous Screw Dia 6.5mm (16mm Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "25 to 120 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2006",
+        "name":  "Cancellous Screw Dia 6.5mm (16mm Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "25 to 120 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S510",
+        "name":  "Cancellous Screw Dia 6.5mm (32mm Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "25 to 120 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2007",
+        "name":  "Cancellous Screw Dia 6.5mm (32mm Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "25 to 120 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S511",
+        "name":  "Cancellous Screw Dia 6.5mm (Fully Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "25 to 110 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2008",
+        "name":  "Cancellous Screw Dia 6.5mm (Fully Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "25 to 110 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S512",
+        "name":  "Malleolar Screw Dia 4.5mm",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "25 to 100 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2009",
+        "name":  "Malleolar Screw Dia 4.5mm",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "25 to 100 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S306",
+        "name":  "Washer for Small 4mm / Large 6.5mm Screw",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1806",
+        "name":  "Washer for Small 4mm / Large 6.5mm Screw",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S301",
+        "name":  "Cannulated Cancellous Screw Dia 4mm (Short Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "15 to 90 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1801",
+        "name":  "Cannulated Cancellous Screw Dia 4mm (Short Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "15 to 90 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S302",
+        "name":  "Cannulated Cancellous Screw Dia 4mm (Full Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "15 to 90 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1802",
+        "name":  "Cannulated Cancellous Screw Dia 4mm (Full Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "15 to 90 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S303",
+        "name":  "Cannulated Cancellous Screw Dia 6.5mm and 7mm (16mm Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "20 to 125 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1803",
+        "name":  "Cannulated Cancellous Screw Dia 6.5mm and 7mm (16mm Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "20 to 125 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S304",
+        "name":  "Cannulated Cancellous Screw Dia 6.5mm and 7mm (32mm Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "20 to 125 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S305",
+        "name":  "Cannulated Cancellous Screw Dia 6.5mm and 7mm (Full Thread)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "25 to 100 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S307",
+        "name":  "D.H.S. Leg Screw (A.O. Type)",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "50 to 120 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S401",
+        "name":  "Inter Locking Bolts Dia 2.9mm",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "16 to 50 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1901",
+        "name":  "Inter Locking Bolts Dia 2.9mm",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "16 to 50 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S402",
+        "name":  "Inter Locking Bolts Dia 3.4mm",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "16 to 60 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1902",
+        "name":  "Inter Locking Bolts Dia 3.4mm",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "16 to 60 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S403",
+        "name":  "Inter Locking Bolts Dia 3.9mm",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "16 to 80 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1903",
+        "name":  "Inter Locking Bolts Dia 3.9mm",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "16 to 80 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S404",
+        "name":  "Inter Locking Bolts Dia 4.9mm",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "20 to 100 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1904",
+        "name":  "Inter Locking Bolts Dia 4.9mm",
+        "category":  "BONE SCREWS AND LOCKING BOLTS",
+        "basePrice":  null,
+        "size":  "20 to 100 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1530",
+        "name":  "Olecranon Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1510",
+        "name":  "Small \u0027T\u0027 Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 10 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2210",
+        "name":  "Small \u0027T\u0027 Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 10 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1506",
+        "name":  "Small Locking Plate (3.5 mm)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "5 to 14 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2206",
+        "name":  "Small Locking Plate (3.5 mm)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "5 to 14 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1509",
+        "name":  "Oblique \u0027T\u0027 Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 10 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2209",
+        "name":  "Oblique \u0027T\u0027 Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 10 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1507",
+        "name":  "Narrow Locking Plate (4.5 mm)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "5 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2207",
+        "name":  "Narrow Locking Plate (4.5 mm)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "5 to 16 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1514",
+        "name":  "Metaphyseal Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2213",
+        "name":  "Metaphyseal Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1508",
+        "name":  "Broad Locking Plate (4.5 mm)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "5 to 16 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2208",
+        "name":  "Broad Locking Plate (4.5 mm)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "5 to 16 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1515",
+        "name":  "Distal Medial Tibia Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2218",
+        "name":  "Distal Medial Tibia Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 12 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1538",
+        "name":  "Distal Medial Humerus Metaphyseal Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "7 to 15 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1517",
+        "name":  "Philos Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2214",
+        "name":  "Philos Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 12 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1525",
+        "name":  "Distal Radius Extra Articular \u0027T\u0027 Plate 2.7 mm (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3, 4, 5 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1516",
+        "name":  "Clavicle Medial Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "6, 7, 8 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2220",
+        "name":  "Clavicle Medial Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "6, 7, 8 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1526",
+        "name":  "Distal Anterior Radius Oblique \u0027T\u0027 Plate 2.7 mm (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3, 4, 5 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1520",
+        "name":  "Distal Humerus Dorsolateral Support Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 14 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1513",
+        "name":  "Lateral Tibia Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 14 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2212",
+        "name":  "Lateral Tibia Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 14 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1521",
+        "name":  "Distal Humerus Medial Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 14 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1512",
+        "name":  "Distal Femoral Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "5 to 14 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2211",
+        "name":  "Distal Femoral Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "5 to 14 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1528",
+        "name":  "Volar Column Distal Radius Locking Plate (Right/Left)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 8 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1519",
+        "name":  "D.H.S. Locking Plate 130 and 135 degrees",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2215",
+        "name":  "D.H.S. Locking Plate 130 and 135 degrees",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1527",
+        "name":  "2.7 mm Variable Angle L.C.P. Distal Radius (Right/Left)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 6 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1532",
+        "name":  "Clavicle Hook Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 8 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1545",
+        "name":  "Olecranon Hook Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 8 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1535",
+        "name":  "Posterior Medial Proximal Tibial Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 10 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1544",
+        "name":  "Antero Lateral Distal Tibia LCP (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1548",
+        "name":  "Proximal Femoral Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1540",
+        "name":  "Distal Femoral Medial Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 14 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1534",
+        "name":  "\u0027L\u0027 Buttress Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1536",
+        "name":  "Proximal Tibia Medial Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 10 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1529",
+        "name":  "Anatomical Proximal Tibia Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "5 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1539",
+        "name":  "Distal Fibula Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 10 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1546",
+        "name":  "Proximal Femoral Hook Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1541",
+        "name":  "Distal Tibial Medial Locking Plate with Tab (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1531",
+        "name":  "Superior Anterior Clavicle Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "3 to 8 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1553",
+        "name":  "Trochanteric Stabilization Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1533",
+        "name":  "Distal Humerus Extra Articular Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1542",
+        "name":  "Radial Head Rim Locking Plate (Left and Right)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "2 to 5 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1543",
+        "name":  "Radial Head Neck Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "2 to 5 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1555",
+        "name":  "Trochanteric Buttress Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1549",
+        "name":  "1/3 Tubular Combi Locking Plate",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 to 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1556",
+        "name":  "Straight D/R Dorsal Locking Plate Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 and 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2246",
+        "name":  "Straight D/R Dorsal Locking Plate Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 and 12 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1562",
+        "name":  "Reconstruction D/R Dorsal Locking Plate Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 and 12 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2252",
+        "name":  "Reconstruction D/R Dorsal Locking Plate Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "4 and 12 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1557",
+        "name":  "T D/R Dorsal Reconstruction Locking Plate Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "2 and 7 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2247",
+        "name":  "T D/R Dorsal Reconstruction Locking Plate Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "2 and 7 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1559",
+        "name":  "L D/R Dorsal Locking Plate (Left and Right) Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "2 and 5 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2249",
+        "name":  "L D/R Dorsal Locking Plate (Left and Right) Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "2 and 5 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1560",
+        "name":  "L Oblique D/R Dorsal Locking Plate (Left and Right) Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "2 and 5 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2250",
+        "name":  "L Oblique D/R Dorsal Locking Plate (Left and Right) Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "2 and 5 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1558",
+        "name":  "T D/R Dorsal Locking Plate Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "2 and 5 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2248",
+        "name":  "T D/R Dorsal Locking Plate Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "2 and 5 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1561",
+        "name":  "H D/R Dorsal Locking Plate Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "Small and Large",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2251",
+        "name":  "H D/R Dorsal Locking Plate Dia 2.7 mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "Small and Large",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1524",
+        "name":  "2.7 mm Locking Screw",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "12 to 60 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2219",
+        "name":  "2.7 mm Locking Screw",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "12 to 60 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1503",
+        "name":  "Cancellous Locking Screw Dia 3.5 mm (Full Thread)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "12 to 80 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1501",
+        "name":  "3.5 mm Locking Screw",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "12 to 80 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2201",
+        "name":  "3.5 mm Locking Screw",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "12 to 80 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1504",
+        "name":  "Cancellous Locking Screw Dia 5 mm (Full Thread)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "50 to 100 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1502",
+        "name":  "4.9 mm Locking Screw",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "16 to 100 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2202",
+        "name":  "4.9 mm Locking Screw",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "16 to 100 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1505",
+        "name":  "Cancellous Locking Screw Dia 6.5 mm (Full Thread)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "50 to 100 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S406",
+        "name":  "Proximal Bolt Dia 6.4mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "60 to 120 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1906",
+        "name":  "Proximal Bolt Dia 6.4mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "60 to 120 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S405",
+        "name":  "Proximal Bolt Dia 8mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "60 to 120 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1905",
+        "name":  "Proximal Bolt Dia 8mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "60 to 120 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S407",
+        "name":  "P.F.N. A-II Blade Dia 11mm",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "70 to 120 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1547",
+        "name":  "Locking C.C. Screw 7.3 mm (Full Thread)",
+        "category":  "BONE LOCKING PLATES AND SCREWS",
+        "basePrice":  null,
+        "size":  "50 to 120 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S603",
+        "name":  "Humerus Nail (Solid and Canulated) Dia 6, 7, 8 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "20 to 30 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2303",
+        "name":  "Humerus Nail (Solid and Canulated) Dia 6, 7, 8 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "20 to 30 cm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S615",
+        "name":  "Trochanteric Femoral Nail (T.F.N.) 130 and 135 degrees",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "18 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2311",
+        "name":  "Trochanteric Femoral Nail (T.F.N.) 130 and 135 degrees",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "18 cm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S606",
+        "name":  "Tibia Nail (Solid) Dia 8, 9, 10, 11 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "28 to 38 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S604",
+        "name":  "Tibia Nail (Canulated) Dia 8, 9, 10, 11 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "28 to 38 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2304",
+        "name":  "Tibia Nail (Solid and Canulated) Dia 8, 9, 10, 11 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "28 to 38 cm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S614",
+        "name":  "Proximal Femoral Nail (P.F.N.) 130 and 135 degrees",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "25 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2310",
+        "name":  "Proximal Femoral Nail (P.F.N.) 130 and 135 degrees",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "25 cm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S609",
+        "name":  "Femur Nail (Solid) Dia 8, 9, 10, 11, 12 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "34 to 44 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S607",
+        "name":  "Femur Nail (Canulated) Dia 8, 9, 10, 11, 12 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "34 to 44 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2306",
+        "name":  "Femur Nail (Solid and Canulated) Dia 8, 9, 10, 11, 12 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "34 to 44 cm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S613",
+        "name":  "Proximal Femoral Nail (P.F.N.) 135 degrees Left and Right",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "34 to 44 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S610",
+        "name":  "Recon Nail (Left and Right) Dia 9, 10, 11, 12 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "34 to 44 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S616",
+        "name":  "Syrus Tibia Nail Dia 8, 9, 10 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "28 to 38 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2312",
+        "name":  "Syrus Tibia Nail Dia 8, 9, 10 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "28 to 38 cm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S624",
+        "name":  "PFN A-II Nail Dia 9, 10, 11, 12 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "Short 17-24cm, Long 34-42cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S617",
+        "name":  "Syrus Femur Nail (Left and Right) Dia 8, 9, 10, 11, 12 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "34 to 44 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2313",
+        "name":  "Syrus Femur Nail (Left and Right) Dia 8, 9, 10, 11, 12 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "34 to 44 cm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S612",
+        "name":  "Supra Condylar Nail (I.M.S.C.) Dia 9, 10, 11, 12, 13 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "15 to 30 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2309",
+        "name":  "Supra Condylar Nail (I.M.S.C.) Dia 9, 10, 11, 12, 13 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "15 to 30 cm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S623",
+        "name":  "Elastic Nail Dia 2 to 4.5mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "440 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2314",
+        "name":  "Elastic Nail Dia 2 to 4.5mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "440 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S621",
+        "name":  "Square Nail for Radius and Ulna Dia 1.5 to 4mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "14 to 38 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S620",
+        "name":  "Rush Nail Dia 1.5 to 5mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "18 to 38 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S611",
+        "name":  "Recon Nail (Short) Dia 9, 10, 11, 12 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "22 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2308",
+        "name":  "Recon Nail (Short) Dia 9, 10, 11, 12 mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "22 cm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S627",
+        "name":  "Expert Tibia Nail (ETN) Dia 8.0mm, 9.0mm, 10mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "28 to 38 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S631",
+        "name":  "Screw Nail for Radius and Ulna Dia 2.0 to 4.0mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "20 to 30 cm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2321",
+        "name":  "Screw Nail for Radius and Ulna Dia 2.0 to 4.0mm",
+        "category":  "NAILING SYSTEM",
+        "basePrice":  null,
+        "size":  "20 to 30 cm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S311",
+        "name":  "Shoulder Prosthesis",
+        "category":  "PROSTHESIS",
+        "basePrice":  null,
+        "size":  "35 to 39 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S309",
+        "name":  "Austin Moore Prosthesis",
+        "category":  "PROSTHESIS",
+        "basePrice":  null,
+        "size":  "37 to 55 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S310",
+        "name":  "Bipolar XL",
+        "category":  "PROSTHESIS",
+        "basePrice":  null,
+        "size":  "37 to 55 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2501",
+        "name":  "Mono Axial Screw Dia 4.5, 5.5, 6.5 mm",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "30 to 50 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2508",
+        "name":  "Eco Cage Dia 10 to 18 mm",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2502",
+        "name":  "Poly Axial Screw Dia 4.5, 5.5, 6.5 mm",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "30 to 50 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2509",
+        "name":  "Expandable Cage Dia 10 to 18 mm",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "20x25 to 55x75 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2503",
+        "name":  "Reduction Poly Axial Screw Dia 4.5, 5.5, 6.5 mm",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "30 to 50 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2511",
+        "name":  "PLIF Cage (Imported Cage)",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "Length 20-30 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2504",
+        "name":  "Connection Rod Dia 3mm",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2505",
+        "name":  "Connection Rod Dia 5.5mm",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2510",
+        "name":  "Kidney Cage (PLIF Cage)",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "Height 7-11 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2506",
+        "name":  "Transverse Connector",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2512",
+        "name":  "PLIF Cage",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "Length 20-30 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2514",
+        "name":  "Cervical Cage (Round Cage)",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "Width 12 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S704",
+        "name":  "Cervical \u0027H\u0027 (Spinal) Plate",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "5, 8, 11 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2515",
+        "name":  "Cervical Fusion Cage",
+        "category":  "SPINE IMPLANT",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2603",
+        "name":  "Suture Disc (Double Hole and Slotted)",
+        "category":  "ARTHROSCOPY IMPLANT",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2602",
+        "name":  "Endo Button",
+        "category":  "ARTHROSCOPY IMPLANT",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2604",
+        "name":  "Anchor Screw (Cork Screw) Dia 3mm and 5mm",
+        "category":  "ARTHROSCOPY IMPLANT",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S513",
+        "name":  "Harbert Screw",
+        "category":  "ARTHROSCOPY IMPLANT",
+        "basePrice":  null,
+        "size":  "12 to 50 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2010",
+        "name":  "Harbert Screw",
+        "category":  "ARTHROSCOPY IMPLANT",
+        "basePrice":  null,
+        "size":  "12 to 50 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2601",
+        "name":  "A.C.L. Screw (Interference) Dia 7, 8, 9, 10 mm",
+        "category":  "ARTHROSCOPY IMPLANT",
+        "basePrice":  null,
+        "size":  "15 to 35 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1601",
+        "name":  "Mini Straight Plate (With/Without Gap) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "2 to 20 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1701",
+        "name":  "Mini Straight Plate (With/Without Gap) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "2 to 20 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1612",
+        "name":  "Mini Orbita Plate (With/Without Gap) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "4, 6 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1712",
+        "name":  "Mini Orbita Plate (With/Without Gap) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "4, 6 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1604",
+        "name":  "Mini \u0027L\u0027 Plate (Left and Right) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "2+2, 3+3 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1704",
+        "name":  "Mini \u0027L\u0027 Plate (Left and Right) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "2+2, 3+3 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1608",
+        "name":  "Mini \u0027X\u0027 Plate Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "5, 6 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1708",
+        "name":  "Mini \u0027X\u0027 Plate Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "5, 6 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1605",
+        "name":  "Mini \u0027L\u0027 Plate (Oblique Left and Right) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "2+2, 3+3 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1705",
+        "name":  "Mini \u0027L\u0027 Plate (Oblique Left and Right) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "2+2, 3+3 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1609",
+        "name":  "Mini \u0027Z\u0027 Plate (Left and Right) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "4 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1709",
+        "name":  "Mini \u0027Z\u0027 Plate (Left and Right) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "4 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1615",
+        "name":  "Mini 3D Square Plate Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "4 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1715",
+        "name":  "Mini 3D Square Plate Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "4 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1610",
+        "name":  "Mini Curved Plate (Left and Right) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "4, 6 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1710",
+        "name":  "Mini Curved Plate (Left and Right) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "4, 6 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1614",
+        "name":  "Mini Nose Plate Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "Chin Shape",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1714",
+        "name":  "Mini Nose Plate Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "Chin Shape",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1607",
+        "name":  "Mini \u0027Y\u0027 Plate (Single and Double) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "4, 5, 6 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1707",
+        "name":  "Mini \u0027Y\u0027 Plate (Single and Double) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "4, 5, 6 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1727",
+        "name":  "Double Ended Mandible Reconstruction Plate Dia 2.7 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "Standard",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1603",
+        "name":  "Mini \u0027T\u0027 Plate Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "2+2 to 3+3 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1703",
+        "name":  "Mini \u0027T\u0027 Plate Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "2+2 to 3+3 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1619",
+        "name":  "Mini Angle Reconstruction Plate (Left and Right) Dia 2.7 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "20, 24 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1719",
+        "name":  "Mini Angle Reconstruction Plate (Left and Right) Dia 2.7 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "20, 24 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1606",
+        "name":  "Mini \u0027I\u0027 Plate Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "6 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1706",
+        "name":  "Mini \u0027I\u0027 Plate Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "6 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1620",
+        "name":  "T.M.J. Condyle Reconstruction Plate Dia 2.7 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "20, 24 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1720",
+        "name":  "T.M.J. Condyle Reconstruction Plate Dia 2.7 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "20, 24 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1721",
+        "name":  "Wire Mesh Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "1x1 to 4x8 inches",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1618",
+        "name":  "Mini Reconstruction Plate Dia 2.7 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "14 to 24 Hole",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1718",
+        "name":  "Mini Reconstruction Plate Dia 2.7 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "14 to 24 Hole",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1623",
+        "name":  "Mini Screw (Single/Cross Slot) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "4 to 16 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T1722",
+        "name":  "Mini Screw (Single/Cross Slot) Dia 1.5, 2, 2.5 mm",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "4 to 16 mm",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1622",
+        "name":  "Arch Bar",
+        "category":  "MAXILLOFACIAL IMPLANT",
+        "basePrice":  null,
+        "size":  "1 Feet",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S801",
+        "name":  "\u0027K\u0027 Wire (Simple and Threaded) Dia 1.0 to 3.0mm",
+        "category":  "WIRE, PINS AND SCHANZ SCREW",
+        "basePrice":  null,
+        "size":  "6, 9, 12 inches",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "T2401",
+        "name":  "\u0027K\u0027 Wire (Simple and Threaded) Dia 1.0 to 3.0mm",
+        "category":  "WIRE, PINS AND SCHANZ SCREW",
+        "basePrice":  null,
+        "size":  "6, 9, 12 inches",
+        "material":  "Titanium",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1009",
+        "name":  "Tapper Thread Schanz Screw (32mm and 52mm Thread) Dia 6mm",
+        "category":  "WIRE, PINS AND SCHANZ SCREW",
+        "basePrice":  null,
+        "size":  "6, 8 inches",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1001",
+        "name":  "Steinman Pin Dia 3.0 to 5.0mm",
+        "category":  "WIRE, PINS AND SCHANZ SCREW",
+        "basePrice":  null,
+        "size":  "6, 9 inches",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1006",
+        "name":  "Schanz Screw (Cancellous Thread) Shaft Dia 4.5mm",
+        "category":  "WIRE, PINS AND SCHANZ SCREW",
+        "basePrice":  null,
+        "size":  "8, 9 inches",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1008",
+        "name":  "Self Drilling Schanz Screw (32mm and 52mm Thread) Dia 4.5, 5mm",
+        "category":  "WIRE, PINS AND SCHANZ SCREW",
+        "basePrice":  null,
+        "size":  "6, 8 inches",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1004",
+        "name":  "Schanz Screw (16mm Thread) Dia 2.0 to 5.0mm",
+        "category":  "WIRE, PINS AND SCHANZ SCREW",
+        "basePrice":  null,
+        "size":  "4 to 9 inches",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1003",
+        "name":  "Denham Pin Dia 4.0, 4.5, 5.0mm",
+        "category":  "WIRE, PINS AND SCHANZ SCREW",
+        "basePrice":  null,
+        "size":  "9 inches",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1005",
+        "name":  "Schanz Screw (32mm Thread) Dia 3.0 to 5.0mm",
+        "category":  "WIRE, PINS AND SCHANZ SCREW",
+        "basePrice":  null,
+        "size":  "6 to 9 inches",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1010",
+        "name":  "Hip Traction Screw Dia 4.5, 6.5mm",
+        "category":  "WIRE, PINS AND SCHANZ SCREW",
+        "basePrice":  null,
+        "size":  "6, 9 inches",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1103",
+        "name":  "A.O. Clamp (Single/Double Pin) and Tube to Tube Clamp",
+        "category":  "EXTERNAL AND RAIL FIXATOR",
+        "basePrice":  null,
+        "size":  "4.5mm x 11mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1105",
+        "name":  "Ball Type Clamp / Distractor Unit",
+        "category":  "EXTERNAL AND RAIL FIXATOR",
+        "basePrice":  null,
+        "size":  "6 to 12 inches",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1104",
+        "name":  "A.O. Clamp (Radius / Ulna)",
+        "category":  "EXTERNAL AND RAIL FIXATOR",
+        "basePrice":  null,
+        "size":  "2.5x4 to 4x4 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1101",
+        "name":  "Aesculap Clamp",
+        "category":  "EXTERNAL AND RAIL FIXATOR",
+        "basePrice":  null,
+        "size":  "4.5x8 and 8x8 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S902",
+        "name":  "Coventry Staples",
+        "category":  "EXTERNAL AND RAIL FIXATOR",
+        "basePrice":  null,
+        "size":  "Small to Ex. Large",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1102",
+        "name":  "Aesculap A.O. Clamp (Radius / Ulna)",
+        "category":  "EXTERNAL AND RAIL FIXATOR",
+        "basePrice":  null,
+        "size":  "2.5x4 to 4x4 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S901",
+        "name":  "\u0027U\u0027 Staples",
+        "category":  "EXTERNAL AND RAIL FIXATOR",
+        "basePrice":  null,
+        "size":  "Dia 1.5-3mm x 10-30mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1401",
+        "name":  "Rail Fixator (Rail, End/Center/Swivel Clamp)",
+        "category":  "EXTERNAL AND RAIL FIXATOR",
+        "basePrice":  null,
+        "size":  "300, 350, 400 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
+    },
+    {
+        "code":  "S1405",
+        "name":  "C.D. Unit",
+        "category":  "EXTERNAL AND RAIL FIXATOR",
+        "basePrice":  null,
+        "size":  "40, 80, 100 mm",
+        "material":  "SS 316L",
+        "type":  "Implant"
     }
 ]

@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-lg sticky-top navbar-custom" id="main-nav">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.html" id="nav-brand-link">
-                <img src="images/logo.png" alt="SYFA Enterprises Logo">
+                <img src="images/logo.jpg" alt="SYFA Enterprises Logo">
                 <span class="d-none d-sm-inline">SYFA ENTERPRISES</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,9 +43,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html" id="nav-contact">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="invoice.html" id="nav-invoice"><i class="fas fa-file-invoice-dollar me-1 text-secondary"></i>Invoice Gen</a>
                     </li>
                     <li class="nav-item ms-lg-3">
                         <a class="nav-link btn btn-floating bg-light position-relative" href="order.html" style="width: 40px; height: 40px; border-radius: 50%; box-shadow: var(--shadow-sm);" id="nav-cart">
@@ -115,54 +112,149 @@
     <section class="section-padding bg-white" id="product-categories">
         <div class="container">
             <h2 class="section-title">Product Categories</h2>
-            <p class="text-center text-muted mb-5">Explore our wide catalog of orthopaedic trauma plates, screws, drill bits, and specialized surgical equipment.</p>
+            <p class="text-center text-muted mb-5">Explore our wide catalog of premium-grade orthopaedic trauma plates, screws, nails, fixators, and specialized spine implants.</p>
             <div class="row g-4">
-                <div class="col-md-4 col-sm-6">
-                    <div class="feature-card">
-                        <div class="icon-box"><i class="fas fa-screwdriver"></i></div>
-                        <h4>Orthopaedic Screws</h4>
-                        <p class="text-muted">Mini Screws, Cortex Screws, Cancellous Screws, and Cannulated Screws in Titanium and Surgical Steel.</p>
-                        <a href="instruments.html?category=screws" class="text-secondary fw-bold text-decoration-none">Explore Screws <i class="fas fa-arrow-right ms-1"></i></a>
+                <!-- 1. Bone Plates (3.5mm & 4.5mm) -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-card d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-border-all"></i></div>
+                            <h4>Bone Plates</h4>
+                            <p class="text-muted small">Semi-tubular, D.C. plates, L.C.D.C. plates, Hook, Ellis, and Calcaneal plates in Stainless Steel and Titanium.</p>
+                        </div>
+                        <a href="instruments.html?category=plates" class="text-secondary fw-bold text-decoration-none mt-3">Explore Plates <i class="fas fa-arrow-right ms-1"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="feature-card">
-                        <div class="icon-box"><i class="fas fa-border-all"></i></div>
-                        <h4>Bone Plates</h4>
-                        <p class="text-muted">Mandible Plates, Reconstruction Plates, L-Shape Plates, and Locking Compression Plates (LCP).</p>
-                        <a href="instruments.html?category=plates" class="text-secondary fw-bold text-decoration-none">Explore Plates <i class="fas fa-arrow-right ms-1"></i></a>
+                
+                <!-- 2. Bone Screws & Locking Bolts -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-card d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-screwdriver"></i></div>
+                            <h4>Screws & Bolts</h4>
+                            <p class="text-muted small">Cortical, Cancellous, Malleolar, Cannulated, and DHS leg screws, along with locking bolts in various diameters.</p>
+                        </div>
+                        <a href="instruments.html?category=screws" class="text-secondary fw-bold text-decoration-none mt-3">Explore Screws <i class="fas fa-arrow-right ms-1"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="feature-card">
-                        <div class="icon-box"><i class="fas fa-tools"></i></div>
-                        <h4>Drill Bits</h4>
-                        <p class="text-muted">Precision Drill Bits for Jacobs Chuck and Quick Coupling systems, built for clinical longevity.</p>
-                        <a href="instruments.html?category=drill" class="text-secondary fw-bold text-decoration-none">Explore Drill Bits <i class="fas fa-arrow-right ms-1"></i></a>
+
+                <!-- 3. Bone Locking Plates & Screws -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-card d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-key"></i></div>
+                            <h4>Locking Plates & Screws</h4>
+                            <p class="text-muted small">Philos, LCP, Volar column, Clavicle, Distal Radius, Olecranon, and H/L/T dorsal reconstruction plates.</p>
+                        </div>
+                        <a href="instruments.html?category=locking" class="text-secondary fw-bold text-decoration-none mt-3">Explore Locking Systems <i class="fas fa-arrow-right ms-1"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="feature-card">
-                        <div class="icon-box"><i class="fas fa-hammer"></i></div>
-                        <h4>Surgical Instruments</h4>
-                        <p class="text-muted">Screw Drivers, Depth Gauges, Plate Benders, Bone Awls, and complete Trauma sets.</p>
-                        <a href="instruments.html?category=instruments" class="text-secondary fw-bold text-decoration-none">Explore Instruments <i class="fas fa-arrow-right ms-1"></i></a>
+
+                <!-- 4. Nailing System -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-card d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-grip-lines"></i></div>
+                            <h4>Nailing System</h4>
+                            <p class="text-muted small">Humerus, Tibia, Femur, PFN, TFN, Syrus, Ender's, Elastic, Rush, and Expert Tibia Nails (ETN) in standard sizes.</p>
+                        </div>
+                        <a href="instruments.html?category=nails" class="text-secondary fw-bold text-decoration-none mt-3">Explore Nails <i class="fas fa-arrow-right ms-1"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="feature-card">
-                        <div class="icon-box"><i class="fas fa-bone"></i></div>
-                        <h4>Intramedullary Nails & Screws</h4>
-                        <p class="text-muted">Tibia and Femoral Interlocking Nails, Enders Nails, Rush Nails, and matching instrument sets.</p>
-                        <a href="instruments.html?category=nails" class="text-secondary fw-bold text-decoration-none">Explore Nails <i class="fas fa-arrow-right ms-1"></i></a>
+
+                <!-- 5. Prosthesis -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-card d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-bone"></i></div>
+                            <h4>Prosthesis</h4>
+                            <p class="text-muted small">Precision-engineered hip joint replacements, Shoulder Prosthesis, Austin Moore, and Bipolar XL heads.</p>
+                        </div>
+                        <a href="instruments.html?category=prosthesis" class="text-secondary fw-bold text-decoration-none mt-3">Explore Prosthesis <i class="fas fa-arrow-right ms-1"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="feature-card">
-                        <div class="icon-box"><i class="fas fa-hospital-user"></i></div>
-                        <h4>Sterile Containers</h4>
-                        <p class="text-muted">Full sterilization container boxes and baskets customized for fragment implant systems.</p>
-                        <a href="instruments.html?category=containers" class="text-secondary fw-bold text-decoration-none">Explore Containers <i class="fas fa-arrow-right ms-1"></i></a>
+
+                <!-- 6. Spine Implants -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-card d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-align-center"></i></div>
+                            <h4>Spine Implants</h4>
+                            <p class="text-muted small">Monoaxial, Polyaxial, and Reduction screws, Eco and Expandable cages, PLIF, and Cervical cages.</p>
+                        </div>
+                        <a href="instruments.html?category=spine" class="text-secondary fw-bold text-decoration-none mt-3">Explore Spine Implants <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- 7. Arthroscopy Implants -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-card d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-crutch"></i></div>
+                            <h4>Arthroscopy Implants</h4>
+                            <p class="text-muted small">Double-hole and slotted Suture Discs, Endo Buttons, Anchor Cork screws, and Interference ACL screws.</p>
+                        </div>
+                        <a href="instruments.html?category=arthroscopy" class="text-secondary fw-bold text-decoration-none mt-3">Explore Arthroscopy <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- 8. Maxillofacial Implants -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-card d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-head-side-mask"></i></div>
+                            <h4>Maxillofacial Implants</h4>
+                            <p class="text-muted small">Mini straight, orbita, L/X/Z/Y/T plates, TMJ condyle, Mandible reconstruction plates, and wire meshes.</p>
+                        </div>
+                        <a href="instruments.html?category=maxillofacial" class="text-secondary fw-bold text-decoration-none mt-3">Explore Maxillofacial <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- 9. Wire, Pins & Schanz Screws -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-card d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-microchip"></i></div>
+                            <h4>Wires, Pins & Schanz</h4>
+                            <p class="text-muted small">Simple and threaded Kirschner wires (K-wires), Steinman pins, Denham pins, and cancellous/self-drilling Schanz screws.</p>
+                        </div>
+                        <a href="instruments.html?category=wires" class="text-secondary fw-bold text-decoration-none mt-3">Explore Wires & Pins <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- 10. External & Rail Fixators -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-card d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-drafting-compass"></i></div>
+                            <h4>External & Fixators</h4>
+                            <p class="text-muted small">A.O. clamps, Tube-to-tube, Ball type clamps, Coventry staples, distractor units, and complete Rail fixator systems.</p>
+                        </div>
+                        <a href="instruments.html?category=fixators" class="text-secondary fw-bold text-decoration-none mt-3">Explore Fixators <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- 11. Drill Bits & Instruments -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-card d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-tools"></i></div>
+                            <h4>Drill Bits & Instruments</h4>
+                            <p class="text-muted small">Precision drill bits for Jacobs chuck/Quick coupling, drivers, platers benders, gauges, and fragment sets.</p>
+                        </div>
+                        <a href="instruments.html?category=instruments" class="text-secondary fw-bold text-decoration-none mt-3">Explore Instruments <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- 12. Sterile Containers -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-card d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="icon-box"><i class="fas fa-box-tissue"></i></div>
+                            <h4>Sterile Containers</h4>
+                            <p class="text-muted small">Full sterilization container boxes, perforated baskets, and customized silicone-padded fragment organizers.</p>
+                        </div>
+                        <a href="instruments.html?category=containers" class="text-secondary fw-bold text-decoration-none mt-3">Explore Containers <i class="fas fa-arrow-right ms-1"></i></a>
                     </div>
                 </div>
             </div>
@@ -264,7 +356,7 @@
                     <h5>Corporate Office</h5>
                     <div class="footer-contact-item mt-3">
                         <i class="fas fa-map-marker-alt"></i>
-                        <span>61, First Floor, Palayam Bazaar, Woraiyur, Tiruchirappalli - 620003, Tamil Nadu, India</span>
+                        <span>61, Palayam Bazaar, Woraiyur, Trichy - 3</span>
                     </div>
                     <div class="footer-contact-item">
                         <i class="fas fa-phone-alt"></i>
