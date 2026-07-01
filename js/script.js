@@ -967,58 +967,92 @@ window.downloadPDFBill = function() {
     const margin = 14;
     const pageWidth = 210;
     
-    // Top primary header background block
-    doc.setFillColor(0, 51, 102); 
-    doc.rect(0, 0, pageWidth, 42, 'F');
-    
-    // Add Logo
+    // Top-left Logo
     if (logoBase64) {
-        doc.addImage(logoBase64, 'JPEG', margin, 9, 24, 24);
+        doc.addImage(logoBase64, 'JPEG', margin, 8, 22, 22);
     }
     
-    // Left-aligned header details
-    doc.setTextColor(255, 255, 255);
+    // Company information below the logo
+    doc.setTextColor(0, 51, 102); // Dark blue primary color
     doc.setFont("Helvetica", "bold");
-    doc.setFontSize(16);
-    doc.text("SYFA ENTERPRISES", margin + 28, 17);
+    doc.setFontSize(11);
+    doc.text("SYFA ENTERPRISES", margin, 34);
     
-    doc.setFontSize(8);
+    doc.setFontSize(7.5);
     doc.setFont("Helvetica", "normal");
-    doc.text("Orthopaedic Implants & Instruments", margin + 28, 23);
+    doc.setTextColor(80, 80, 80);
+    doc.text("Orthopaedic Implants & Instruments", margin, 38);
     
     doc.setFont("Helvetica", "bold");
     doc.setTextColor(212, 175, 55); // Gold Accent Color
-    doc.text("GSTIN: 33AAEPZ9117F1ZJ", margin + 28, 29);
+    doc.text("GSTIN: 33AAEPZ9117F1ZJ", margin, 42);
     
-    doc.setTextColor(255, 255, 255);
     doc.setFont("Helvetica", "normal");
-    doc.text("DL No: TN/TRW/20B/00236", margin + 28, 34);
-    doc.text("       TN/TRW/21B/00236", margin + 28, 38);
+    doc.setTextColor(80, 80, 80);
+    doc.text("DL No: TN/TRW/20B/00236, TN/TRW/21B/00236", margin, 46);
     
-    // Right-aligned header details
+    // Right-aligned header details (aligned to right margin at pageWidth - margin = 196)
+    doc.setFont("Helvetica", "bold");
+    doc.setFontSize(9.5);
+    doc.setTextColor(0, 51, 102);
+    doc.text("SYFA ENTERPRISES", 196, 11, { align: 'right' });
+    
+    doc.setFont("Helvetica", "normal");
     doc.setFontSize(7.5);
-    doc.text("SYFA ENTERPRISES", 125, 9);
-    doc.text("61, Palayam Bazaar,", 125, 13);
-    doc.text("Woraiyur,", 125, 17);
-    doc.text("Trichy - 3", 125, 21);
-    doc.text("Phone: +91 8778628246", 125, 25);
-    doc.text("Email: jagirguru1001@gmail.com", 125, 29);
+    doc.setTextColor(80, 80, 80);
+    doc.text("61, Palayam Bazaar,", 196, 15, { align: 'right' });
+    doc.text("Woraiyur,", 196, 19, { align: 'right' });
+    doc.text("Trichy - 620003", 196, 23, { align: 'right' });
+    doc.text("Phone: +91 8778628246", 196, 27, { align: 'right' });
+    doc.text("Email: jagirguru1001@gmail.com", 196, 31, { align: 'right' });
     
-    // Gold separator line
+    // Clean Gold separator line (does not bleed to page edge, matches right margin)
     doc.setFillColor(212, 175, 55);
-    doc.rect(0, 42, pageWidth, 2, 'F');
+    doc.rect(margin, 50, pageWidth - (margin * 2), 1, 'F');
     
     // Invoice Title
     doc.setTextColor(0, 51, 102); 
     doc.setFont("Helvetica", "bold");
-    doc.setFontSize(14);
-    doc.text("OFFICIAL ESTIMATE / PROFORMA INVOICE", margin, 52);
+    doc.setFontSize(13);
+    doc.text("OFFICIAL TAX INVOICE", margin, 58);
     
+    // Dynamic Spacing and Sizing calculation based on item count
+    const itemCount = details.cart.length;
+    let tablePadding = 3.5;
+    let prodPadding = 3;
+    let tableFontSize = 8;
+    let prodFontSize = 7.5;
+    let gap = 8;
+    let totalsGap = 6;
+
+    if (itemCount > 12) {
+        tablePadding = 1.8;
+        prodPadding = 1.5;
+        tableFontSize = 6.5;
+        prodFontSize = 6;
+        gap = 3;
+        totalsGap = 3;
+    } else if (itemCount > 8) {
+        tablePadding = 2.2;
+        prodPadding = 2;
+        tableFontSize = 7;
+        prodFontSize = 6.5;
+        gap = 4;
+        totalsGap = 4;
+    } else if (itemCount > 5) {
+        tablePadding = 2.8;
+        prodPadding = 2.5;
+        tableFontSize = 7.5;
+        prodFontSize = 7;
+        gap = 6;
+        totalsGap = 5;
+    }
+
     // Customer Details Table using jspdf-autotable (Bordered Box)
     doc.autoTable({
-        startY: 58,
+        startY: 62,
         theme: 'grid',
-        styles: { fontSize: 8, cellPadding: 3.5, font: 'Helvetica' },
+        styles: { fontSize: tableFontSize, cellPadding: tablePadding, font: 'Helvetica' },
         bodyStyles: { lineColor: [220, 224, 230], lineWidth: 0.5 },
         body: [
             [
@@ -1046,7 +1080,7 @@ window.downloadPDFBill = function() {
                 { content: `${details.dateStr}  ${details.timeStr}` }
             ]
         ],
-        margin: { left: 14, right: 14 }
+        margin: { left: margin, right: margin }
     });
     
     // Prepare Products Table Data
@@ -1071,103 +1105,99 @@ window.downloadPDFBill = function() {
     
     // Draw Products Table using jspdf-autotable
     doc.autoTable({
-        startY: doc.lastAutoTable.finalY + 8,
+        startY: doc.lastAutoTable.finalY + gap,
         head: [['S.No', 'Product Name', 'Catalogue Number', 'Quantity', 'Unit Price', 'GST %', 'GST Amount', 'Total']],
         body: tableData,
         theme: 'striped',
         headStyles: { fillColor: [0, 51, 102], textColor: [255, 255, 255], fontStyle: 'bold' },
-        styles: { fontSize: 7.5, cellPadding: 3, font: 'Helvetica' },
+        styles: { fontSize: prodFontSize, cellPadding: prodPadding, font: 'Helvetica' },
         columnStyles: {
-            0: { cellWidth: 8 },
-            1: { cellWidth: 68 },
-            2: { cellWidth: 22 },
-            3: { cellWidth: 12 },
-            4: { cellWidth: 20 },
-            5: { cellWidth: 11 },
-            6: { cellWidth: 20 },
-            7: { cellWidth: 21 }
+            0: { cellWidth: 8, halign: 'center' },
+            1: { cellWidth: 68, halign: 'left' },
+            2: { cellWidth: 22, halign: 'left' },
+            3: { cellWidth: 12, halign: 'center' },
+            4: { cellWidth: 20, halign: 'right' },
+            5: { cellWidth: 11, halign: 'center' },
+            6: { cellWidth: 20, halign: 'right' },
+            7: { cellWidth: 21, halign: 'right' }
         },
-        margin: { left: 14, right: 14 }
+        margin: { left: margin, right: margin }
     });
     
-    let currentY = doc.lastAutoTable.finalY + 8;
+    let currentY = doc.lastAutoTable.finalY + gap;
     
-    // Check height for totals + footer
-    if (currentY > 210) {
-        doc.addPage();
-        currentY = 20;
-    }
-    
-    // Totals Box (Right aligned)
+    // Helper function to clean currency strings (replaces rupee symbol with Rs. for PDF Helvetica compatibility)
+    const cleanPrice = (priceStr) => {
+        if (!priceStr) return "";
+        return priceStr.replace(/₹/g, 'Rs. ').replace(/â‚¹/g, 'Rs. ').replace(/â¹/g, 'Rs. ');
+    };
+
+    // Totals Box (Right aligned at right margin = 196)
     doc.setFont("Helvetica", "bold");
     doc.setFontSize(8.5);
     doc.setTextColor(80, 80, 80);
-    doc.text("Subtotal (Incl. Markup):", 125, currentY);
+    doc.text("Subtotal (Incl. Markup):", 140, currentY);
     doc.setFont("Helvetica", "normal");
-    doc.text(details.subtotalStr.replace('â‚¹', 'Rs. '), 175, currentY);
+    doc.text(cleanPrice(details.subtotalStr), 196, currentY, { align: 'right' });
     
-    currentY += 6;
+    currentY += totalsGap;
     doc.setFont("Helvetica", "bold");
-    doc.text("GST (5%):", 125, currentY);
+    doc.text("GST (5%):", 140, currentY);
     doc.setFont("Helvetica", "normal");
-    doc.text(details.gstStr.replace('â‚¹', 'Rs. '), 175, currentY);
+    doc.text(cleanPrice(details.gstStr), 196, currentY, { align: 'right' });
     
-    currentY += 6;
-    // Highlight Box for Grand Total
+    currentY += totalsGap;
+    // Highlight Box for Grand Total (X = 130 to 196, aligns perfectly with table right border)
     doc.setFillColor(230, 240, 255);
-    doc.rect(120, currentY - 4.5, 76, 8.5, 'F');
+    doc.rect(130, currentY - 4.5, 66, 8.5, 'F');
     doc.setTextColor(0, 51, 102);
     doc.setFont("Helvetica", "bold");
-    doc.text("Grand Total:", 125, currentY + 1.5);
-    doc.text(details.grandTotalStr.replace('â‚¹', 'Rs. '), 175, currentY + 1.5);
+    doc.text("Grand Total:", 140, currentY + 1.5);
+    doc.text(cleanPrice(details.grandTotalStr), 196, currentY + 1.5, { align: 'right' });
     
     // Amount in Words
-    currentY += 12;
+    currentY += totalsGap * 1.5;
     doc.setFont("Helvetica", "bold");
     doc.setFontSize(8.5);
     doc.setTextColor(33, 37, 41);
-    doc.text("Amount in Words:", 14, currentY);
+    doc.text("Amount in Words:", margin, currentY);
     doc.setFont("Helvetica", "italic");
-    doc.text(details.amountInWords, 45, currentY);
+    doc.text(cleanPrice(details.amountInWords), margin + 28, currentY);
     
-    currentY += 10;
-    if (currentY > 230) {
-        doc.addPage();
-        currentY = 20;
-    }
+    // Dynamic Footer placement to guarantee single A4 page constraint without overlaps
+    const bankStartY = Math.max(238, currentY + totalsGap * 2);
     
-    const bankStartY = currentY;
     // Bank Details Box
     doc.setFillColor(248, 249, 250);
-    doc.rect(14, bankStartY, 98, 30, 'F');
+    doc.rect(margin, bankStartY, 98, 30, 'F');
     doc.setDrawColor(220, 224, 230);
-    doc.rect(14, bankStartY, 98, 30, 'D');
+    doc.rect(margin, bankStartY, 98, 30, 'D');
     
     doc.setTextColor(0, 51, 102);
     doc.setFont("Helvetica", "bold");
     doc.setFontSize(8.5);
-    doc.text("BANK DETAILS:", 18, bankStartY + 5);
+    doc.text("BANK DETAILS:", margin + 4, bankStartY + 5);
     
     doc.setTextColor(50, 50, 50);
     doc.setFont("Helvetica", "normal");
     doc.setFontSize(7.5);
-    doc.text("Bank Name : CANARA BANK", 18, bankStartY + 11);
-    doc.text("A/C NO.    : 5864201000160", 18, bankStartY + 16);
-    doc.text("IFSC       : CNRB0005864", 18, bankStartY + 21);
-    doc.text("Branch     : TRICHY WORAIYUR, TAMIL NADU - 620003", 18, bankStartY + 26);
+    doc.text("Bank Name : CANARA BANK", margin + 4, bankStartY + 11);
+    doc.text("A/C NO.    : 5864201000160", margin + 4, bankStartY + 16);
+    doc.text("IFSC       : CNRB0005864", margin + 4, bankStartY + 21);
+    doc.text("Branch     : TRICHY WORAIYUR, TAMIL NADU - 620003", margin + 4, bankStartY + 26);
     
     // Signatory Block
     doc.setTextColor(100, 100, 100);
     doc.setFont("Helvetica", "normal");
     doc.setFontSize(8);
-    doc.text("For SYFA Enterprises,", 130, bankStartY + 5);
+    doc.text("For SYFA ENTERPRISES,", 130, bankStartY + 5);
     
     doc.setDrawColor(200, 200, 200);
-    doc.line(130, bankStartY + 20, 175, bankStartY + 20);
+    doc.line(130, bankStartY + 20, 196, bankStartY + 20); // matching right margin at 196
     doc.text("Authorized Signatory", 132, bankStartY + 25);
     
     // Centered Footnotes
-    const footerY = bankStartY + 36;
+    const footerY = bankStartY + 35;
     doc.setFont("Helvetica", "italic");
     doc.setFontSize(7.5);
     doc.setTextColor(120, 120, 120);
