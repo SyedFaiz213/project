@@ -995,16 +995,18 @@ window.downloadPDFBill = function() {
     doc.setFont("Helvetica", "bold");
     doc.setFontSize(9.5);
     doc.setTextColor(0, 51, 102);
-    doc.text("SYFA ENTERPRISES", 196, 11, { align: 'right' });
+    doc.text("ADDRESS", 196, 11, { align: 'right' });
     
     doc.setFont("Helvetica", "normal");
     doc.setFontSize(7.5);
     doc.setTextColor(80, 80, 80);
     doc.text("61, Palayam Bazaar,", 196, 15, { align: 'right' });
     doc.text("Woraiyur,", 196, 19, { align: 'right' });
-    doc.text("Trichy - 620003", 196, 23, { align: 'right' });
-    doc.text("Phone: +91 8778628246", 196, 27, { align: 'right' });
-    doc.text("Email: jagirguru1001@gmail.com", 196, 31, { align: 'right' });
+    doc.text("Trichy - 3", 196, 23, { align: 'right' });
+    doc.text("Phone:", 196, 27, { align: 'right' });
+    doc.text("+91 8778628246", 196, 31, { align: 'right' });
+    doc.text("Email:", 196, 35, { align: 'right' });
+    doc.text("jagirguru1001@gmail.com", 196, 39, { align: 'right' });
     
     // Clean Gold separator line (does not bleed to page edge, matches right margin)
     doc.setFillColor(212, 175, 55);
@@ -1093,7 +1095,7 @@ window.downloadPDFBill = function() {
         
         return [
             index + 1,
-            `[${item.code}] ${item.name} (Size: ${item.size || "Standard"}, Mat: ${item.material || "SS/Titanium"})`,
+            `${item.name} (Size: ${item.size || "Standard"}, Material: ${item.material || "SS/Titanium"})`,
             item.code, 
             item.qty,
             isPriceAvailable ? `Rs. ${unitPrice.toFixed(2)}` : "On Request",
@@ -1190,7 +1192,7 @@ window.downloadPDFBill = function() {
     doc.setTextColor(100, 100, 100);
     doc.setFont("Helvetica", "normal");
     doc.setFontSize(8);
-    doc.text("For SYFA ENTERPRISES,", 130, bankStartY + 5);
+    doc.text("For the Company,", 130, bankStartY + 5);
     
     doc.setDrawColor(200, 200, 200);
     doc.line(130, bankStartY + 20, 196, bankStartY + 20); // matching right margin at 196
@@ -1201,7 +1203,7 @@ window.downloadPDFBill = function() {
     doc.setFont("Helvetica", "italic");
     doc.setFontSize(7.5);
     doc.setTextColor(120, 120, 120);
-    doc.text("Thank you for choosing SYFA ENTERPRISES.", 105, footerY, { align: 'center' });
+    doc.text("Thank you for your business.", 105, footerY, { align: 'center' });
     doc.text("This invoice is computer generated and does not require a physical signature.", 105, footerY + 4, { align: 'center' });
     
     // Save PDF file using highly compatible blob download method
