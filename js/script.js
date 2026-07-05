@@ -94,6 +94,58 @@ const Cart = {
     }
 };
 
+// Helper to calculate Dealer Price and Selling Price according to pricing rules
+function getProductPrices(product) {
+    const dealerPrice = product.basePrice;
+    const isPriceAvailable = dealerPrice !== null && dealerPrice !== undefined && dealerPrice > 0;
+    
+    if (!isPriceAvailable) {
+        return { isPriceAvailable: false, dealerPrice: 0, sellingPrice: 0, showOnlySellingPrice: false };
+    }
+    
+    let sellingPrice = null;
+    let showOnlySellingPrice = false;
+    
+    // Check if discountPercentage or discount is explicitly stored
+    if (product.discountPercentage !== undefined && product.discountPercentage !== null) {
+        const discountPercentage = parseFloat(product.discountPercentage);
+        const discountAmount = dealerPrice * (discountPercentage / 100);
+        sellingPrice = dealerPrice - discountAmount;
+        showOnlySellingPrice = true;
+    } else if (product.discount !== undefined && product.discount !== null) {
+        sellingPrice = dealerPrice - parseFloat(product.discount);
+        showOnlySellingPrice = true;
+    }
+    
+    // Check if sellingPrice is explicitly stored
+    if (sellingPrice === null) {
+        if (product.sellingPrice !== undefined && product.sellingPrice !== null) {
+            sellingPrice = parseFloat(product.sellingPrice);
+        } else if (product.selling_price !== undefined && product.selling_price !== null) {
+            sellingPrice = parseFloat(product.selling_price);
+        } else if (product.price !== undefined && product.price !== null) {
+            sellingPrice = parseFloat(product.price);
+        }
+    }
+    
+    // Default 10% discount from Dealer Price if nothing else is specified
+    if (sellingPrice === null) {
+        sellingPrice = dealerPrice * 0.90;
+    }
+    
+    // Validation: The Selling Price (Current Price) must ALWAYS be LESS THAN the Dealer Price.
+    if (sellingPrice >= dealerPrice) {
+        sellingPrice = dealerPrice * 0.90;
+    }
+    
+    return {
+        isPriceAvailable: true,
+        dealerPrice: dealerPrice,
+        sellingPrice: parseFloat(sellingPrice.toFixed(2)),
+        showOnlySellingPrice: showOnlySellingPrice
+    };
+}
+
 // Global State
 let allProducts = [];
 let filteredProducts = [];
@@ -430,13 +482,16 @@ function renderCatalogPage(page) {
     
     let html = "";
     pageItems.forEach(product => {
-        const isPriceAvailable = product.basePrice !== null && product.basePrice > 0;
+        const priceInfo = getProductPrices(product);
         let basePriceHtml = "";
         let sellingPriceHtml = "";
-        if (isPriceAvailable) {
-            const sellingPrice = (product.basePrice * 1.05).toFixed(2);
-            basePriceHtml = `Dealer: ₹${product.basePrice.toLocaleString('en-IN', {minimumFractionDigits: 2})}`;
-            sellingPriceHtml = `₹${parseFloat(sellingPrice).toLocaleString('en-IN', {minimumFractionDigits: 2})}`;
+        if (priceInfo.isPriceAvailable) {
+            if (priceInfo.showOnlySellingPrice) {
+                basePriceHtml = "";
+            } else {
+                basePriceHtml = `Dealer: ₹${priceInfo.dealerPrice.toLocaleString('en-IN', {minimumFractionDigits: 2})}`;
+            }
+            sellingPriceHtml = `₹${priceInfo.sellingPrice.toLocaleString('en-IN', {minimumFractionDigits: 2})}`;
         } else {
             basePriceHtml = `Dealer: Price on Request`;
             sellingPriceHtml = `Contact for Quote`;
@@ -457,7 +512,7 @@ function renderCatalogPage(page) {
                         <h5 class="product-title" title="${product.name}">${product.name}</h5>
                         <div class="product-meta">${sizeInfo}</div>
                         <div class="price-box d-flex flex-column mb-3">
-                            <span class="base-price">${basePriceHtml}</span>
+                            <span class="base-price" style="display: ${priceInfo.showOnlySellingPrice ? 'none' : 'block'}">${basePriceHtml}</span>
                             <span class="selling-price">${sellingPriceHtml}</span>
                         </div>
                         <div class="d-grid gap-2 d-flex">
@@ -544,15 +599,26 @@ window.showProductDetails = function(product) {
     
     if (!modalTitle || !modalBody) return;
     
-    const isPriceAvailable = product.basePrice !== null && product.basePrice > 0;
-    let basePriceHtml = "";
+    const priceInfo = getProductPrices(product);
+    let dealerPriceRow = "";
     let sellingPriceHtml = "";
-    if (isPriceAvailable) {
-        const sellingPrice = (product.basePrice * 1.05).toFixed(2);
-        basePriceHtml = `₹${product.basePrice.toLocaleString('en-IN', {minimumFractionDigits: 2})}`;
-        sellingPriceHtml = `₹${parseFloat(sellingPrice).toLocaleString('en-IN', {minimumFractionDigits: 2})}`;
+    if (priceInfo.isPriceAvailable) {
+        if (!priceInfo.showOnlySellingPrice) {
+            dealerPriceRow = `
+                <tr>
+                    <th>Dealer Price</th>
+                    <td><span class="base-price">₹${priceInfo.dealerPrice.toLocaleString('en-IN', {minimumFractionDigits: 2})}</span></td>
+                </tr>
+            `;
+        }
+        sellingPriceHtml = `₹${priceInfo.sellingPrice.toLocaleString('en-IN', {minimumFractionDigits: 2})}`;
     } else {
-        basePriceHtml = `Price on Request`;
+        dealerPriceRow = `
+            <tr>
+                <th>Dealer Price</th>
+                <td>Price on Request</td>
+            </tr>
+        `;
         sellingPriceHtml = `Contact for Quote`;
     }
     
@@ -581,12 +647,9 @@ window.showProductDetails = function(product) {
                         <th>Material</th>
                         <td>${product.material || "Surgical Steel / Titanium"}</td>
                     </tr>
-                    <tr>
-                        <th>Base Price</th>
-                        <td>${basePriceHtml}</td>
-                    </tr>
+                    ${dealerPriceRow}
                     <tr class="table-success">
-                        <th>Selling Price (Incl. 5% Markup)</th>
+                        <th>Current Price</th>
                         <td><strong class="text-success" style="font-size: 1.2rem;">${sellingPriceHtml}</strong></td>
                     </tr>
                 </table>
@@ -658,11 +721,11 @@ function renderCartTable() {
     let subtotalVal = 0.0;
     
     cart.forEach(item => {
-        const isPriceAvailable = item.basePrice !== null && item.basePrice > 0;
+        const priceInfo = getProductPrices(item);
         let sellingPriceHtml = "";
         let totalHtml = "";
-        if (isPriceAvailable) {
-            const sellingPrice = item.basePrice * 1.05;
+        if (priceInfo.isPriceAvailable) {
+            const sellingPrice = priceInfo.sellingPrice;
             const total = sellingPrice * item.qty;
             subtotalVal += total;
             sellingPriceHtml = `₹${sellingPrice.toLocaleString('en-IN', {minimumFractionDigits: 2})}`;
@@ -767,9 +830,9 @@ function placeOrder() {
     let subtotalVal = 0.0;
     
     cart.forEach((item, index) => {
-        const isPriceAvailable = item.basePrice !== null && item.basePrice > 0;
-        if (isPriceAvailable) {
-            const unitPrice = item.basePrice * 1.05;
+        const priceInfo = getProductPrices(item);
+        if (priceInfo.isPriceAvailable) {
+            const unitPrice = priceInfo.sellingPrice;
             const total = unitPrice * item.qty;
             subtotalVal += total;
             productsText += `${index + 1}. [${item.code}] ${item.name}\n   Qty: ${item.qty} | Price: \u20B9${unitPrice.toFixed(2)} | Subtotal: \u20B9${total.toFixed(2)}\n`;
@@ -1087,8 +1150,8 @@ window.downloadPDFBill = function() {
     
     // Prepare Products Table Data
     const tableData = details.cart.map((item, index) => {
-        const isPriceAvailable = item.basePrice !== null && item.basePrice > 0;
-        const unitPrice = isPriceAvailable ? item.basePrice * 1.05 : 0;
+        const priceInfo = getProductPrices(item);
+        const unitPrice = priceInfo.isPriceAvailable ? priceInfo.sellingPrice : 0;
         const subtotal = unitPrice * item.qty;
         const gstAmount = subtotal * 0.05;
         const total = subtotal + gstAmount;
@@ -1098,10 +1161,10 @@ window.downloadPDFBill = function() {
             `${item.name} (Size: ${item.size || "Standard"}, Material: ${item.material || "SS/Titanium"})`,
             item.code, 
             item.qty,
-            isPriceAvailable ? `Rs. ${unitPrice.toFixed(2)}` : "On Request",
+            priceInfo.isPriceAvailable ? `Rs. ${unitPrice.toFixed(2)}` : "On Request",
             "5%",
-            isPriceAvailable ? `Rs. ${gstAmount.toFixed(2)}` : "On Request",
-            isPriceAvailable ? `Rs. ${total.toFixed(2)}` : "On Request"
+            priceInfo.isPriceAvailable ? `Rs. ${gstAmount.toFixed(2)}` : "On Request",
+            priceInfo.isPriceAvailable ? `Rs. ${total.toFixed(2)}` : "On Request"
         ];
     });
     
@@ -1138,7 +1201,7 @@ window.downloadPDFBill = function() {
     doc.setFont("Helvetica", "bold");
     doc.setFontSize(8.5);
     doc.setTextColor(80, 80, 80);
-    doc.text("Subtotal (Incl. Markup):", 140, currentY);
+    doc.text("Subtotal:", 140, currentY);
     doc.setFont("Helvetica", "normal");
     doc.text(cleanPrice(details.subtotalStr), 196, currentY, { align: 'right' });
     
