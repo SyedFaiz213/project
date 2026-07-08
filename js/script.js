@@ -103,46 +103,11 @@ function getProductPrices(product) {
         return { isPriceAvailable: false, dealerPrice: 0, sellingPrice: 0, showOnlySellingPrice: false };
     }
     
-    let sellingPrice = null;
-    let showOnlySellingPrice = false;
-    
-    // Check if discountPercentage or discount is explicitly stored
-    if (product.discountPercentage !== undefined && product.discountPercentage !== null) {
-        const discountPercentage = parseFloat(product.discountPercentage);
-        const discountAmount = dealerPrice * (discountPercentage / 100);
-        sellingPrice = dealerPrice - discountAmount;
-        showOnlySellingPrice = true;
-    } else if (product.discount !== undefined && product.discount !== null) {
-        sellingPrice = dealerPrice - parseFloat(product.discount);
-        showOnlySellingPrice = true;
-    }
-    
-    // Check if sellingPrice is explicitly stored
-    if (sellingPrice === null) {
-        if (product.sellingPrice !== undefined && product.sellingPrice !== null) {
-            sellingPrice = parseFloat(product.sellingPrice);
-        } else if (product.selling_price !== undefined && product.selling_price !== null) {
-            sellingPrice = parseFloat(product.selling_price);
-        } else if (product.price !== undefined && product.price !== null) {
-            sellingPrice = parseFloat(product.price);
-        }
-    }
-    
-    // Default 10% discount from Dealer Price if nothing else is specified
-    if (sellingPrice === null) {
-        sellingPrice = dealerPrice * 0.90;
-    }
-    
-    // Validation: The Selling Price (Current Price) must ALWAYS be LESS THAN the Dealer Price.
-    if (sellingPrice >= dealerPrice) {
-        sellingPrice = dealerPrice * 0.90;
-    }
-    
     return {
         isPriceAvailable: true,
         dealerPrice: dealerPrice,
-        sellingPrice: parseFloat(sellingPrice.toFixed(2)),
-        showOnlySellingPrice: showOnlySellingPrice
+        sellingPrice: dealerPrice,
+        showOnlySellingPrice: true
     };
 }
 
@@ -649,7 +614,7 @@ window.showProductDetails = function(product) {
                     </tr>
                     ${dealerPriceRow}
                     <tr class="table-success">
-                        <th>Current Price</th>
+                        <th>Dealer Price</th>
                         <td><strong class="text-success" style="font-size: 1.2rem;">${sellingPriceHtml}</strong></td>
                     </tr>
                 </table>
