@@ -1065,11 +1065,9 @@ window.downloadPDFBill = function() {
     doc.setTextColor(80, 80, 80);
     doc.text("61, Palayam Bazaar,", 196, 15, { align: 'right' });
     doc.text("Woraiyur,", 196, 19, { align: 'right' });
-    doc.text("Trichy - 3", 196, 23, { align: 'right' });
-    doc.text("Phone:", 196, 27, { align: 'right' });
-    doc.text("+91 8778628246", 196, 31, { align: 'right' });
-    doc.text("Email:", 196, 35, { align: 'right' });
-    doc.text("jagirguru1001@gmail.com", 196, 39, { align: 'right' });
+    doc.text("Trichy - 620003", 196, 23, { align: 'right' });
+    doc.text("Mobile No: 8778628246", 196, 27, { align: 'right' });
+    doc.text("Email: jagirguru1001@gmail.com", 196, 31, { align: 'right' });
     
     // Clean Gold separator line (does not bleed to page edge, matches right margin)
     doc.setFillColor(212, 175, 55);
@@ -1246,16 +1244,28 @@ window.downloadPDFBill = function() {
     doc.setTextColor(50, 50, 50);
     doc.setFont("Helvetica", "normal");
     doc.setFontSize(7.5);
-    doc.text("Bank Name : CANARA BANK", margin + 4, bankStartY + 11);
-    doc.text("A/C NO.    : 5864201000160", margin + 4, bankStartY + 16);
-    doc.text("IFSC       : CNRB0005864", margin + 4, bankStartY + 21);
-    doc.text("Branch     : TRICHY WORAIYUR, TAMIL NADU - 620003", margin + 4, bankStartY + 26);
+    const drawBankDetail = (fullText, y) => {
+        const colonIndex = fullText.indexOf(":");
+        if (colonIndex !== -1) {
+            const label = fullText.substring(0, colonIndex).trim();
+            const value = fullText.substring(colonIndex + 1).trim();
+            doc.text(label, margin + 4, y);
+            doc.text(":", margin + 20, y);
+            doc.text(value, margin + 22, y);
+        } else {
+            doc.text(fullText, margin + 4, y);
+        }
+    };
+    drawBankDetail("Bank Name  : CANARA BANK", bankStartY + 11);
+    drawBankDetail("A/C NO     : 5864201000160", bankStartY + 16);
+    drawBankDetail("IFSC        : CNRB0005864", bankStartY + 21);
+    drawBankDetail("Branch      : TRICHY WORAIYUR, TAMIL NADU - 620003", bankStartY + 26);
     
     // Signatory Block
     doc.setTextColor(100, 100, 100);
     doc.setFont("Helvetica", "normal");
     doc.setFontSize(8);
-    doc.text("For the Company,", 130, bankStartY + 5);
+    doc.text("For SYFA ENTERPRISES,", 130, bankStartY + 5);
     
     doc.setDrawColor(200, 200, 200);
     doc.line(130, bankStartY + 20, 196, bankStartY + 20); // matching right margin at 196
